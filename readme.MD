@@ -1,0 +1,1 @@
+This repo purpurse is just follow the python track in https://exercism.io/
