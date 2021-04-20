@@ -1,19 +1,12 @@
 def convert(number):
-    factor_three = number % 3 == 0
-    factor_five = number % 5 == 0
-    factor_seven = number % 7 == 0
     output = ''
-
-    if factor_three:
+    if number % 3 == 0:
         output += 'Pling'
 
-    if factor_five:
+    if number % 5 == 0:
         output += 'Plang'
 
-    if factor_seven:
+    if number % 7 == 0:
         output += 'Plong'
 
-    if bool(output):
-        return output
-
-    return str(number)
+    return output or str(number)
