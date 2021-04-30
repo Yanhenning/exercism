@@ -1,1 +1,1 @@
-This repo purpurse is just follow the python track in https://exercism.io/
+This repo purpose is just follow the python track in https://exercism.io/ and solve different kind of problems
